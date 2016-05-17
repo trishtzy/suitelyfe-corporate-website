@@ -268,6 +268,24 @@ header {
   header {
     background-size: contain;
   }
+  .ios-download-button-img {
+    width: 200px;
+    float:left;
+    padding-left: 55px;
+  }
+  .custom-intro-heading {
+    font-size:20pt;
+    text-align:center;
+    padding-left: 0px;
+    margin-top: -350px;
+
+  }
+
+  .custom-intro-text {
+    font-size: 10pt;
+    width: 300px;
+    padding-left: 55px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -276,8 +294,10 @@ header {
   }
 }
 
-
-
+.section-two-img {
+  width: 700px;
+  height: 871px;
+}
 section {
     padding: 100px 0
 }
@@ -609,7 +629,24 @@ section#contact .text-danger {
 }
 footer {
     padding: 25px 0;
-    text-align: center
+}
+.footer-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-logo-padding {
+  padding-top: 50px;
+}
+.footer-img {
+  width:130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer span.footer-text {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+  color: white;
 }
 footer span.copyright {
     line-height: 40px;
