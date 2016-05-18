@@ -26,14 +26,17 @@
 	color: #f7d463;
 }
 
-.cbp-so-section markettext {
+.custom-market-header {
 	font-size: 48pt;
 	font-weight: 500;
 	line-height: 2;
 	color: #f7d463;
 	text-align: center;
 	text-transform: uppercase;
-	padding-left: 100px;
+}
+.custom-market-text {
+	font-size:20pt;
+	padding-left:70px;
 }
 
 /*.cbp-so-section p {
@@ -135,10 +138,17 @@
 @media screen and (max-width: 41.125em) {
 	.cbp-so-side {
 		float: none;
-		width: 100%;
+		width: 90%;
+	}
+	.custom-market-text {
+		font-size:15pt;
+	}
+	.cbp-so-side-left {
+		padding-left: 0 px;
+
 	}
 
 	.cbp-so-side img {
-		max-width: 100%;
+		display:none;
 	}
 }

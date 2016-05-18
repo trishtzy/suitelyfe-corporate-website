@@ -14,7 +14,15 @@ p {
     font-weight: 300;
 }
 p.large {
-    font-size: 16px
+    font-size: 16px;
+}
+.guide-text {
+  font-size:15pt;
+}
+@media(max-width:667px) {
+  .guide-text{
+    font-size: 12pt;
+  }
 }
 a,
 a:hover,
@@ -246,7 +254,7 @@ header {
   -o-background-size: contain;
   text-align: center;
   color: #fff;
-  padding-top: 376px;
+  padding-top: 176px;
   padding-bottom: 175px;
 }
 .hotel-text {
