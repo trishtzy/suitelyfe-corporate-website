@@ -194,8 +194,8 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
     .navbar-default {
-        background-color: transparent;
-        padding: 25px 0;
+        background-color: black;
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -342,6 +342,28 @@ header {
   header{
     background-size: contain;
   }
+}
+
+.category {
+  color:#f7d463;
+  font-size:30pt;
+  text-transform:uppercase;
+}
+
+.question {
+  color:#f7d463;
+  font-size:25pt;
+  text-transform:uppercase;
+}
+
+.answer {
+  color:#fff;
+  font-size:14pt;
+}
+
+.faq {
+  padding-left:70px;
+  padding-right:70px;
 }
 
 .section-two-img {
