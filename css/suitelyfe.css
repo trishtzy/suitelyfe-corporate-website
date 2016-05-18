@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Nexa", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
     color: #777
@@ -219,7 +219,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
-    background-image: url(../img/header-bg.png);
+    background-image: url(../img/header-bg-1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center bottom;
@@ -232,6 +232,56 @@ header {
     color: #fff;
     padding-top: 476px;
     padding-bottom: 175px;
+}
+
+.hotel-bg {
+  background-image: url(../img/hotel-header-bg.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center bottom;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: contain;
+  text-align: center;
+  color: #fff;
+  padding-top: 376px;
+  padding-bottom: 175px;
+}
+.hotel-text {
+  font-weight: bold;
+  font-size: 50pt;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align:center;
+  width: 300px;
+}
+.hotel-bullet {
+  padding-left: 50px;
+  font-size: 16pt;
+}
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
 }
 
 .custom-intro-heading {
@@ -575,10 +625,10 @@ aside.clients img {
     margin: 50px auto
 }
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat
+    background-color: #f7d463;
+    /*background-image: url(../img/map-image.png);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat*/
 }
 section#contact .section-heading {
     color: #fff
@@ -594,7 +644,7 @@ section#contact .form-group input.form-control {
     height: auto
 }
 section#contact .form-group textarea.form-control {
-    height: 236px
+    height: 410px;
 }
 section#contact .form-control:focus {
     border-color: #fed136;
@@ -649,10 +699,10 @@ footer span.footer-text {
   color: white;
 }
 footer span.copyright {
-    line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    text-transform: none
+    text-transform: none;
+    font-size: 10pt;
 }
 footer ul.quicklinks {
     margin-bottom: 0;
@@ -714,7 +764,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content ul.list-inline {
     margin-bottom: 30px;
-    margin-top: 0
+    margin-top: 0;
 }
 .portfolio-modal .modal-content img {
     margin-bottom: 30px

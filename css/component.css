@@ -26,6 +26,16 @@
 	color: #f7d463;
 }
 
+.cbp-so-section markettext {
+	font-size: 48pt;
+	font-weight: 500;
+	line-height: 2;
+	color: #f7d463;
+	text-align: center;
+	text-transform: uppercase;
+	padding-left: 100px;
+}
+
 /*.cbp-so-section p {
 	font-size: 2em;
 	font-weight: 300;
