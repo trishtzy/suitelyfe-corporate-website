@@ -835,6 +835,9 @@ ul.social-buttons li a:active {
     opacity: 0;
     display: none
 }
+.faq-button {
+    margin: 10px;
+}
 ::-moz-selection {
     text-shadow: none;
     background: #fed136
