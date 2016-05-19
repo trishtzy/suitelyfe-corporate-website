@@ -238,7 +238,7 @@ header {
     -o-background-size: contain;
     text-align: center;
     color: #fff;
-    padding-top: 476px;
+    padding-top: 200px;
     padding-bottom: 175px;
 }
 
@@ -298,7 +298,6 @@ header {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align:left;
   padding-left: 100px;
-  margin-top: -250px;
   text-transform: uppercase;
 }
 
@@ -312,14 +311,18 @@ header {
 }
 
 .ios-download-button-img {
-  width: 300px;
   float:left;
-  padding-left: 100px;
+  overflow:hidden;
+  background:url(https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
+  width:165px;
+  height:40px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
 
 @media (min-width: 768px) {
     header {
-        padding-top: 476px;
+        padding-top: 200px;
     }
 }
 @media (max-width: 667px) {
@@ -333,10 +336,7 @@ header {
   }
   .custom-intro-heading {
     font-size:20pt;
-    text-align:center;
-    padding-left: 0px;
-    margin-top: -350px;
-
+    text-align:left;
   }
 
   .custom-intro-text {
@@ -713,6 +713,7 @@ footer {
 .footer-padding {
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align:left;
 }
 .footer-logo-padding {
   padding-top: 50px;
