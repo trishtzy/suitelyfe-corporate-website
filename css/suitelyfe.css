@@ -19,11 +19,6 @@ p.large {
 .guide-text {
   font-size:15pt;
 }
-@media(max-width:667px) {
-  .guide-text{
-    font-size: 12pt;
-  }
-}
 a,
 a:hover,
 a:focus,
@@ -297,7 +292,6 @@ header {
   font-size: 30pt;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align:left;
-  padding-left: 100px;
   text-transform: uppercase;
 }
 
@@ -305,9 +299,8 @@ header {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
   text-align: left;
-  padding-left: 100px;
   margin-top: 10px;
-  width: 500px;
+  width: 400px;
 }
 
 .ios-download-button-img {
@@ -316,7 +309,7 @@ header {
   background:url(https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
   width:165px;
   height:40px;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-top: 30px;
 }
 
@@ -328,21 +321,29 @@ header {
 @media (max-width: 667px) {
   header {
     background-size: contain;
+    padding-top: 100px;
   }
   .ios-download-button-img {
     width: 200px;
     float:left;
     padding-left: 55px;
+    margin-left: 47px;
   }
   .custom-intro-heading {
     font-size:20pt;
     text-align:left;
   }
-
   .custom-intro-text {
     font-size: 10pt;
     width: 300px;
-    padding-left: 55px;
+  }
+  .guide-text{
+    font-size: 12pt;
+  }
+  .footer-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
   }
 }
 
@@ -353,9 +354,7 @@ header {
 }
 
 .category {
-  color:#f7d463;
-  font-size:30pt;
-  text-transform:uppercase;
+  display:list-inline;
 }
 
 .question {
@@ -372,6 +371,7 @@ header {
 .faq {
   padding-left:70px;
   padding-right:70px;
+  padding-bottom: 70px;
 }
 
 .section-two-img {
