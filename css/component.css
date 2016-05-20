@@ -20,7 +20,7 @@
 
 /* Text styling */
 .cbp-so-section h2 {
-	font-size: 5em;
+	font-size: 40pt;
 	font-weight: 300;
 	line-height: 1;
 	color: #f7d463;
@@ -128,6 +128,7 @@
 
 	.cbp-so-section h2 {
 		margin: 0;
+		/*font-size: 20pt;*/
 	}
 
 	.cbp-so-side img {
@@ -145,10 +146,19 @@
 	}
 	.cbp-so-side-left {
 		padding-left: 0 px;
-
 	}
-
+	.cbp-so-section h2 {
+		margin: 0;
+		font-size: 35pt;
+	}
 	.cbp-so-side img {
 		display:none;
+	}
+}
+
+@media screen and (min-width: 320px) {
+	.cbp-so-section h2 {
+		margin: 0;
+		font-size: 30pt;
 	}
 }
