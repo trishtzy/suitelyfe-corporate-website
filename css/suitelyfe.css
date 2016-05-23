@@ -19,6 +19,12 @@ p.large {
 .guide-text {
   padding-top: 10px;
   font-size:15pt;
+  padding-left: 20px;
+}
+.guide-text-pt-three {
+  padding-top: 10px;
+  font-size:15pt;
+  padding-left:28px;
 }
 a,
 a:hover,
