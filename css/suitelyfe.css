@@ -17,6 +17,7 @@ p.large {
     font-size: 16px;
 }
 .guide-text {
+  padding-top: 10px;
   font-size:15pt;
 }
 a,
@@ -339,6 +340,7 @@ header {
     width: 300px;
   }
   .guide-text{
+    padding-top: 10px;
     font-size: 12pt;
   }
   .footer-padding {
