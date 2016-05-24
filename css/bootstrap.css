@@ -1623,6 +1623,7 @@ pre code {
   padding-bottom: 30px;
   margin-right: -15px;
   margin-left: -15px;
+  display: inline-block;
 }
 .section-two-row-hotel {
   padding-left: 35px;
